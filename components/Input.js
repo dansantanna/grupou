@@ -19,6 +19,7 @@ const Text = styled.Text`
 const Container = styled.View`
   width: 100%;
   margin: 16px;
+  align-self: center;
 `;
 
 const Input = ({ label, ...others }) => {
