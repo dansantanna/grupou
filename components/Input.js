@@ -18,6 +18,9 @@ const Text = styled.Text`
 
 const Container = styled.View`
   width: 100%;
+  flex: 1;
+  max-height: 100px;
+  overflow: hidden;
   margin: 16px;
   align-self: center;
 `;
