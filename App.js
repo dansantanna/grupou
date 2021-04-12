@@ -5,6 +5,7 @@ import Button from "./components/ButtonOutlined";
 
 import StudentArea from "./pages/StudentArea";
 import CreateSubject from "./pages/CreateSubject";
+import Skill from "./pages/Skill";
 
 export default function App() {
   const [screen, setScreen] = useState();
@@ -20,10 +21,15 @@ export default function App() {
             onPress={() => setScreen("CreateSubject")}
             text="Nova disciplina"
           />
+          <Button
+            onPress={() => setScreen("Skill")}
+            text="Skills"
+          />
         </>
       )}
       {screen === "StudentArea" && <StudentArea />}
       {screen === "CreateSubject" && <CreateSubject />}
+      {screen === "Skill" && <Skill />}
     </ScrollView>
   );
 }
