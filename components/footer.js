@@ -31,19 +31,19 @@ const Footer = () => {
       <View>
           <Image
             style={styles.LogoSN}
-            source={require('../assets/linkedin.png')}
+            source={require('../assets/logo_linkedin.png')}
           />
       </View>
       <View>
           <Image
             style={styles.LogoSN}
-            source={require('../assets/instagram.png')}
+            source={require('../assets/logo_instagram.png')}
           />
       </View>
       <View>
           <Image
             style={styles.LogoSN}
-            source={require('../assets/facebook.png')}
+            source={require('../assets/logo_facebook.png')}
           />
       </View>
       </ContainerSN>
