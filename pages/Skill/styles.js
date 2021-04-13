@@ -101,3 +101,4 @@ export const SkillBoxText = styled.Text`
     fontSize: 16px;
     fontWeight: bold;
 `;
+

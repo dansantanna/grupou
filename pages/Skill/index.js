@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Text, View, ScrollView, SafeAreaView, StatusBar} from 'react-native';
+import { Text, View, ScrollView, SafeAreaView, StatusBar, Image} from 'react-native';
 import SkillBar from '../../components/skillbar';
 import Footer from '../../components/footer';
 
@@ -14,7 +14,7 @@ import {
     BotaoTexto,
     SkillBoxContainer,
     SkillBox,
-    SkillBoxText
+    SkillBoxText,
 } from './styles';
 
 export default function Skill()  {
@@ -22,6 +22,14 @@ export default function Skill()  {
      <SafeAreaView>
       <StatusBar barStyle = "dark-content" hidden = {false} backgroundColor = "#277EAE" translucent = {false}/>
         <Scroll>
+          <Image
+              source={require('../../assets/grafismo_background.png')}
+              style={{
+                  height:'100%',
+                  position: 'absolute',
+                  zIndex: -1,
+              }}
+          />
           <Container>
             <Title>
               Skills
